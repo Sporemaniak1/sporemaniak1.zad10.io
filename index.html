@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl-PL">
 
 <head>
 <title>Jakaś strona.</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-.header {
-	text-align: center;
+.gora {
 	height: 150px;
-	weigth: 100%;
-	background-color: FFFFFF;
+	background-color: #FFFFFF;
 }
 body {
 	font-family: Arail, sans-serif;
 	text-align: center;
-	sborder: 15px solid green;
-	background-color: EEEEEE;
+	background-color: #EEEEEE;
 }
 
 div {
-	sborder: 5px solid blue;
-	background-color: D9D9D9;
-	weigth: 100%;
+	background-color: #D9D9D9;
 }
 
 p {
@@ -35,21 +29,21 @@ p {
 	vertical-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: FFFFFF;
+	background-color: #FFFFFF;
 	height: 150px;
 }
 
 .logo1 {
 	float: left;
-	text-align: center:
-	background-color: FFFFFF;
+	text-align: center;
+	background-color: #FFFFFF;
 	height: 150px;
 }
 
 .menu {
 	float: right;
 	height: 150px;
-	background-color: FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .tytul {
@@ -64,6 +58,18 @@ p {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.lista {
+	width: 100%;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.gra {
+	float: left;
+	width: 25%;
 }
 
 table {
@@ -82,26 +88,53 @@ table {
 	font-family: sans-serif;
 }
 
-.tekst3 {
-	border: 1px solid black;
+.td3 {
+	text-align: center;
 	font-size: 3vw;
+	background: #FFFFFF;
+}
+
+.td4 {
+	text-align: center;
+	font-size: 3vw;
+	background: #E2E2E2;
+}
+
+.td5 {
+	text-align: center;
+	font-size: 3vw;
+	background: #D9D9D9;
+}
+
+.td6 {
+	text-align: center;
+	font-size: 3vw;
+	background: #CFCFCF;
+}
+
+.tekst3 {
+	font-size: 2vw;
 	font-family: sans-serif;
 	float: right;
-	background-color: FFFFFF;
-	vertical-align: middle;
+	background-color: #FFFFFF;
 	text-align: center;
 	height: 150px;
+	color: #E80000;
 }
 </style>
 
-<div class="header">
+</head>
+
+<body>
+
+<div class="gora">
 
 <div class="logo1">
-<img src="logo.png" alt="logo" style="text-align: center; margin-top: 20%; margin-bottom: 20%; max-width: 100%; max-height: auto;">
+<img src="logo.png" alt="logo" style="text-align: center; margin-top: 20%; margin-bottom: 20%; max-width: 100%;">
 </div>
 
 <div class="menu">
-<img src="menu.png" alt="menu" style="text-align: center; margin-top: 20%; margin-bottom: 20%; max-width: 100%; max-height: auto;">
+<img src="menu.png" alt="menu" style="text-align: center; margin-top: 20%; margin-bottom: 20%; max-width: 100%;">
 </div>
 
 <div class="logo2">
@@ -110,14 +143,12 @@ table {
 
 </div>
 
-<body>
-
 <br>
 <br>
 
 <div>
 <br>
-<h3 align="center" class="tytul"> Nintendo Switch </h3>
+<h3 class="tytul"> Nintendo Switch </h3>
 <img src="switch1.png" alt="switch1"> <br>
 <p class="tekst1">
 Najlepsza konsola dla całej rodziny. Innowacyjne podejście do<br>
@@ -132,7 +163,7 @@ rozgrywki da możliwość zabawy dla całej rodziny i znajomych. <br>
 
 <div>
 <br>
-<h3 align="center" class="tytul"> Trzy Style Gry </h3>
+<h3 class="tytul"> Trzy Style Gry </h3>
 <p class="tekst1"> Stacjonarny </p>
 <img src="tel.png" alt="tel"> <br>
 <p class="tekst1"> Przenośny </p>
@@ -148,7 +179,7 @@ rozgrywki da możliwość zabawy dla całej rodziny i znajomych. <br>
 
 <div>
 <br>
-<h3 align="center" class="tytul"> Nintendo Switch Lite </h3>
+<h3 class="tytul"> Nintendo Switch Lite </h3>
 <img src="lite1.png" alt="lite1"> <br>
 <p class="tekst1">
 Nowa odsłona bestsellerowej konsli <br>
@@ -171,7 +202,32 @@ Dostępne są różen warianty kolorystyczne: <br>
 <br>
 
 <div>
-<img src="smash.png" style="max-width: 100%;">
+<img src="smash.png" style="max-width: 100%;" alt="smash">
+<h3 class="tytul"> Niesamowite tytuły na Nintendo Switch </h3>
+<p class="tekst1">
+Konsola oferuje szeroki zakres tytułów na <br>
+wyłączność, jak i wiele portów wcześniej wydanych gier.
+
+<div class="lista">
+
+<div class="gra">
+<img src="gra1.png" style="max-width: 100%;" alt="gra1">
+</div>
+
+<div class="gra">
+<img src="gra2.png" style="max-width: 100%;" alt="gra2">
+</div>
+
+<div class="gra">
+<img src="gra3.png" style="max-width: 100%;" alt="gra3">
+</div>
+
+<div class="gra">
+<img src="gra4.png" style="max-width: 100%;" alt="gra4">
+</div>
+
+</div>
+
 </div>
 
 <br>
@@ -179,7 +235,7 @@ Dostępne są różen warianty kolorystyczne: <br>
 
 <div>
 <br>
-<h3 align="center" class="tytul"> Nowe kontrolery Nintendo Joy-Con </h3>
+<h3 class="tytul"> Nowe kontrolery Nintendo Joy-Con </h3>
 <img src="kontr1.png" alt="kontr1">
 <br>
 <p class="tekst1">
@@ -204,39 +260,39 @@ najmniejszego wstrząsu, po odczuwanie głębi dźwięków.
 		<td width="38%" class="td2"> <img src="lite1.png" alt="lite1" style="max-width: 70%; max-height: 70%;"> </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#FFFFFF"> Tryb Stacjonarny </td>
-		<td width="38%" class="td2" bgcolor="#E2E2E2"> Tak </td>
-		<td width="38%" class="td2" bgcolor="#FFFFFF"> Nie </td>
+		<td width="24%" class="td3"> Tryb Stacjonarny </td>
+		<td width="38%" class="td4" > Tak </td>
+		<td width="38%" class="td3"> Nie </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#D9D9D9"> Tryb Podręczny </td>
-		<td width="38%" class="td2" bgcolor="#CFCFCF"> Tak </td>
-		<td width="38%" class="td2" bgcolor="#D9D9D9"> Nie </td>
+		<td width="24%" class="td5"> Tryb Podręczny </td>
+		<td width="38%" class="td6"> Tak </td>
+		<td width="38%" class="td5"> Nie </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#FFFFFF"> Tryb Przenośny </td>
-		<td width="38%" class="td2" bgcolor="#E2E2E2"> Tak </td>
-		<td width="38%" class="td2" bgcolor="#FFFFFF"> Tak </td>
+		<td width="24%" class="td3"> Tryb Przenośny </td>
+		<td width="38%" class="td4"> Tak </td>
+		<td width="38%" class="td3"> Tak </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#D9D9D9"> Odłączalne Joy-Cony </td>
-		<td width="38%" class="td2" bgcolor="#CFCFCF"> Tak </td>
-		<td width="38%" class="td2" bgcolor="#D9D9D9"> Nie </td>
+		<td width="24%" class="td5"> Odłączalne Joy-Cony </td>
+		<td width="38%" class="td6"> Tak </td>
+		<td width="38%" class="td5"> Nie </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#FFFFFF"> Obrazy </td>
-		<td width="38%" class="td2" bgcolor="#E2E2E2"> 6.2" 720P </td>
-		<td width="38%" class="td2" bgcolor="#FFFFFF"> 5.5" 720P </td>
+		<td width="24%" class="td3"> Obrazy </td>
+		<td width="38%" class="td4"> 6.2" 720P </td>
+		<td width="38%" class="td3"> 5.5" 720P </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#D9D9D9"> Bateria </td>
-		<td width="38%" class="td2" bgcolor="#CFCFCF"> 4.5H - 9H (zależne od tytułu) </td>
-		<td width="38%" class="td2" bgcolor="#D9D9D9"> 2.5H - 6.5H (zależne od tytułu) </td>
+		<td width="24%" class="td5"> Bateria </td>
+		<td width="38%" class="td6"> 4.5H - 9H (zależne od tytułu) </td>
+		<td width="38%" class="td5"> 2.5H - 6.5H (zależne od tytułu) </td>
 	</tr>
 	<tr>
-		<td width="24%" class="td1" bgcolor="#FFFFFF"> Złącza </td>
-		<td width="38%" class="td2" bgcolor="#E2E2E2"> HDMI - 1 szt. USB 3.0 - 1 szt. USB 2.0 - 2 szt. Wyjście audio - 1 szt. Czytnik kart pamięci microSD - 1 szt. </td>
-		<td width="38%" class="td2" bgcolor="#FFFFFF"> USB-C - 1 szt. Wyjście audio - 1 szt. Czytnik kart pamięci microSD - 1 szt. </td>
+		<td width="24%" class="td3"> Złącza </td>
+		<td width="38%" class="td4"> HDMI - 1 szt. USB 3.0 - 1 szt. USB 2.0 - 2 szt. Wyjście audio - 1 szt. Czytnik kart pamięci microSD - 1 szt. </td>
+		<td width="38%" class="td3"> USB-C - 1 szt. Wyjście audio - 1 szt. Czytnik kart pamięci microSD - 1 szt. </td>
 	</tr>
 </table>
 </div>
