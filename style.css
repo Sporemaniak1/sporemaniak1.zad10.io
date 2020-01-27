@@ -1,9 +1,9 @@
 :root {
     --primary: #eee;
-    --kol1: #D9D9D9;
-    --kol2: #FFFFFF;
-    --kol3: #E2E2E2;
-    --kol4: #CFCFCF;
+    --kol11: #D9D9D9;
+    --kol21: #FFFFFF;
+    --kol31: #E2E2E2;
+    --kol41: #CFCFCF;
 }
 
 html {
@@ -189,19 +189,19 @@ p {
 }
 
 .kol1 {
-    background-color: var(--kol1);
+    background-color: var(--kol11);
 }
 
 .kol2 {
-    background-color: var(--kol2);
+    background-color: var(--kol21);
 }
 
 .kol3 {
-    background-color: var(--kol3);
+    background-color: var(--kol31);
 }
 
 .kol4 {
-    background-color: var(--kol4);
+    background-color: var(--kol41);
 }
 
 .dodatki {
