@@ -188,20 +188,20 @@ p {
     max-height: 70%;
 }
 
-.kol {
-    bgcolor: #D9D9D9;
+.kol1 {
+    background-color: var(--kol1);
 }
 
-.ko2 {
-    bgcolor: #FFFFFF;
+.kol2 {
+    background-color: var(--kol2);
 }
 
-.ko3 {
-    bgcolor: #E2E2E2;
+.kol3 {
+    background-color: var(--kol3);
 }
 
-.ko4 {
-    bgcolor: #CFCFCF;
+.kol4 {
+    background-color: var(--kol4);
 }
 
 .dodatki {
