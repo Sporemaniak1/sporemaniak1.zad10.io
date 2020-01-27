@@ -9,11 +9,12 @@
 html {
     box-sizing: border-box;
     font-family: Arial sans-serif;
+    background-color: white;
 }
 
 .wrapper {
     display: grid;
-    background-color: var(--kol21);
+    background-color: var(--primary);
 }
 
 .gora {
