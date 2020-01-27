@@ -178,20 +178,30 @@ p {
     text-align: center;
 }
 
+.tabela .imgt1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tabela .imgt2 {
+    max-width: 70%;
+    max-height: 70%;
+}
+
 .kol {
-    
+    bgcolor: #D9D9D9;
 }
 
 .ko2 {
-    
+    bgcolor: #FFFFFF;
 }
 
 .ko3 {
-    
+    bgcolor: #E2E2E2;
 }
 
 .ko4 {
-    
+    bgcolor: #CFCFCF;
 }
 
 .dodatki {
