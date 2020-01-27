@@ -13,7 +13,7 @@ html {
 
 .wrapper {
     display: grid;
-    background-color: var(--primary);
+    background-color: var(--kol21);
 }
 
 .gora {
